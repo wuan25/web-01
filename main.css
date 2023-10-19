@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+}
+ul,
+li {
+  display: flex;
+  list-style: none;
+  padding: 0 10px;
+}
+.header-logo {
+  margin-left: -200px;
+  cursor: pointer;
+}
+.nav-item {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav-item:hover {
+  color: #ad5727;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-but {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner-img {
+  width: 100%;
+}
+.wrap2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 150px;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.flex-text {
+  margin-left: 10px;
+  color: #3a3a3a;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.wrap3 {
+  padding: 10px 150px;
+}
+.user-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-item {
+  margin-top: 20px;
+  width: calc((100%-108px) / 4);
+}
+.user-img {
+  width: 90%;
+}
+.top-text1 {
+  color: #3a3a3a;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top-text2 {
+  color: #9c9c9c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.user-item-text1 {
+  color: #3a3a3a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+}
+.user-item-text2 {
+  color: #9c9c9c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.user-item-text3 {
+  color: #f54748;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+
+.hr {
+  padding: 0 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  padding: 40px 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-footer {
+  cursor: pointer;
+}
+input {
+  padding: 10px 40px 10px 10px;
+}
+.form-but {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
